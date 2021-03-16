@@ -1,0 +1,67 @@
+body{
+    background-image: url(Background.png);
+    background-size:470px;
+}
+
+#menu {
+    color: white;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+ion-icon  {
+    color: #51e9e9;
+    font-size:20px;
+}
+
+.flex-container {
+display: flex;
+justify-content:space-between;
+}
+
+.p-container {
+padding: 0 10px 0 10px;
+display: flex;
+justify-content:space-around;
+}
+
+.dabba{
+
+    padding: 0 10px 0 10px;
+}
+
+.dabba2{
+
+    padding: 0 0px 0 30px;
+}
+
+.end-container {
+    display: flex;
+    margin-top: 90px;
+    margin-right: 30px;
+    justify-content:flex-end;
+    }
+
+h1{
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #51e9e9;
+}
+
+h5{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color: #51e9e9;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 5px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
