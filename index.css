@@ -3,12 +3,17 @@ body{
     background-size:470px;
 }
 
-ion-icon {
+#menu {
     color: white;
     display: inline-block;
     flex-wrap: wrap;
-    flex-direction: column
+    flex-direction: column;
   }
+
+ion-icon  {
+    color: #51e9e9;
+    font-size:20px;
+}
 
 .flex-container {
 display: flex;
